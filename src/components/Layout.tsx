@@ -12,7 +12,8 @@ import {
   Settings,
   Bell,
   Search,
-  Package
+  Package,
+  Laptop
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -31,6 +32,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { name: 'Trip Booking', href: '/trips', icon: MapPin },
     { name: 'Car Rental', href: '/rentals', icon: Car },
     { name: 'Handyman', href: '/handyman', icon: Wrench },
+    { name: 'Electronics', href: '/electronics', icon: Laptop },
     { name: 'Customers', href: '/customers', icon: Users },
     { name: 'Analytics', href: '/analytics', icon: BarChart3 },
     { name: 'Settings', href: '/settings', icon: Settings },
@@ -115,7 +117,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   <div className="flex items-center">
                     <img
                       className="h-8 w-8 rounded-full"
-                      src="https://img-wrapper.vercel.app/image?url=https://placehold.co/32x32.png"
+                      src="https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://placehold.co/32x32.png"
                       alt="Admin"
                     />
                     <span className="ml-2 text-sm font-medium text-gray-700 hidden lg:block">Admin User</span>

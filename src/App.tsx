@@ -8,6 +8,7 @@ import Grocery from './pages/services/Grocery';
 import TripBooking from './pages/services/TripBooking';
 import CarRental from './pages/services/CarRental';
 import Handyman from './pages/services/Handyman';
+import Electronics from './pages/services/Electronics';
 import Customers from './pages/Customers';
 import Analytics from './pages/Analytics';
 import Settings from './pages/Settings';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/trips" element={<TripBooking />} />
             <Route path="/rentals" element={<CarRental />} />
             <Route path="/handyman" element={<Handyman />} />
+            <Route path="/electronics" element={<Electronics />} />
             <Route path="/customers" element={<Customers />} />
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/settings" element={<Settings />} />
